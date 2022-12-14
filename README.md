@@ -1,7 +1,8 @@
 # Argument-Viewer
 Displays the arguments given at invocation
 
-See "readme.txt" for details
+See "readme.txt" for details.
+
 Note: "argview" is an example name to show how to invoke.
 During compilation another name for the executable may be choosen.
 
