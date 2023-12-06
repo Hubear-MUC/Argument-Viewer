@@ -1,26 +1,33 @@
-ArgumentViewer 1.0
-------------------
+Argument Viewer 2.0
+-------------------
 
-A program viewing the arguments on the screen which are given at the invocation.
+The program can be invoked with arguments.
 
-Just invoke after compilation with arguments, like this:
+If no arguments are given, the program just displays its name (which is 
+always the first argument in any case) with the length in bytes.
 
-  argview a b c
-  
-Then the program lists the arguments given like this:
+If the position in the file hierarchy has to be given by a
 
-  a
-  b
-  c
-  
-and terminates.
+  ./
 
-This program is a trial to implement for example a file size viewer with the option to give the name of the file to measure by an argument of a file- content viewer or things like that.
+this is included in the count of the length.
+
+If arguments are given, every argument will be listed on the terminal
+followed by the length in bytes.
+
+This program was written to test some features which will be needed in future
+projects.
+
 
 
 
 Version history
 ---------------
+
+Version 2.0
+
+Also the lengths of the arguments gets counted and displayed.
+
 
 Version 1.0
 
